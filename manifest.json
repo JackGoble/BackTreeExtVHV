@@ -1,0 +1,6 @@
+{
+  "name": "BackTree",
+  "version": "1.0",
+  "description": "Provides a tree view for browsing history",
+  "manifest_version": 2
+}
