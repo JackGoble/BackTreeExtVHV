@@ -4,19 +4,28 @@
   "description": "Provides a tree view for browsing history",
   "manifest_version": 2,
 
-  "permissions": [
-    "contextMenus"
-  ],
-
   "icons": {
     "16": "tiny1.png"
   },
 
+  "browser_action": {
+      "default_popup": "popup.html"
+  },
+
   "background": {
+    "persistent": false,
     "scripts": [
-      "backgroundContextMenus.js"
-    ],
-    "persistent": false
-  }
+      "background.js"
+    ]
+  },
+
+
+  "permissions": [
+    "contextMenus"
+  ]
+
+
+
+
 
 }
