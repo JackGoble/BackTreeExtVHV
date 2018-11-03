@@ -13,7 +13,9 @@
   },
 
   "background": {
-    "scripts": ["backgroundContextMenus.js"],
+    "scripts": [
+      "backgroundContextMenus.js"
+    ],
     "persistent": false
   }
 
