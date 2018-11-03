@@ -15,14 +15,15 @@
   "background": {
     "persistent": false,
     "scripts": [
-      "navigation_collecter.js",
-      "background.js"
+      "background.js",
+      "navigation_collecter.js"
     ]
   },
 
 
   "permissions": [
-    "contextMenus"
+    "contextMenus",
+    "webNavigation"
   ]
 
 
